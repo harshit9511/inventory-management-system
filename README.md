@@ -1,12 +1,14 @@
 # 🚀 Inventory & Order Management System
 
-A full-stack Inventory & Order Management application designed to manage products, customers, inventory, and orders efficiently through a modern dashboard interface.
+A full-stack Inventory & Order Management application developed to manage products, customers, inventory, and orders through a modern and responsive dashboard interface.
+
+The system helps in tracking inventory, managing customer records, monitoring stock updates, and handling order operations efficiently.
 
 ---
 
 # 🛠️ Tech Stack
 
-## 🎨 Frontend
+### 🎨 Frontend
 
 * React.js
 * React Router DOM
@@ -14,18 +16,18 @@ A full-stack Inventory & Order Management application designed to manage product
 * Chart.js
 * CSS3
 
-## ⚙️ Backend
+### ⚙️ Backend
 
 * FastAPI
 * Python
-* REST API
+* REST APIs
 * Pydantic
 
-## 🗄️ Database
+### 🗄️ Database
 
 * SQLite
 
-## ☁️ Deployment & DevOps
+### ☁️ DevOps & Deployment
 
 * Docker
 * Docker Hub
@@ -37,31 +39,32 @@ A full-stack Inventory & Order Management application designed to manage product
 
 # ✨ Features
 
-✅ Product Management
-✅ Customer Management
-✅ Order Tracking
-✅ Inventory Monitoring
-✅ Stock Quantity Updates
-✅ Low Stock Alerts
-✅ Dashboard Analytics
-✅ REST API Integration
-✅ Responsive UI
-✅ CRUD Operations
-✅ Dockerized Backend
+* ✅ Product Management
+* ✅ Customer Management
+* ✅ Order Tracking
+* ✅ Inventory Monitoring
+* ✅ Low Stock Alerts
+* ✅ Dashboard Analytics
+* ✅ REST API Integration
+* ✅ CRUD Operations
+* ✅ Responsive User Interface
+* ✅ Dockerized Backend
 
 ---
 
 # 📂 Project Structure
 
+```bash id="yr45h6"
 inventory-management-system/
 │
 ├── inventory-management/
-│ ├── backend/
-│ ├── frontend/
-│ ├── requirements.txt
-│ └── docker-compose.yml
+│   ├── backend/
+│   ├── frontend/
+│   ├── requirements.txt
+│   └── docker-compose.yml
 │
 └── README.md
+```
 
 ---
 
@@ -72,9 +75,9 @@ The frontend is built using React.js and provides:
 * Interactive Dashboard
 * Product Listing
 * Customer Records
-* Order Tracking
+* Order Management
 * Analytics Charts
-* Responsive Design
+* Responsive UI
 
 ---
 
@@ -130,9 +133,10 @@ npm start
 
 # 📈 Future Improvements
 
-🔹 Authentication System
-🔹 Role-Based Access
-🔹 Invoice Generation
-🔹 Email Notifications
-🔹 Export Reports
-🔹 Advanced Analytics
+* Authentication System
+* Role-Based Access
+* Invoice Generation
+* Email Notifications
+* Export Reports
+* Advanced Analytics
+
